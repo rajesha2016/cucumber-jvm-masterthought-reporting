@@ -121,7 +121,7 @@
 							<!-- The tags to run, maps to CucumberOptions.tags property. Default 
 								is no tags. -->
 							<tags>
-								<tag>@RaisinInterestOffers,@RaisinPartnerBank,@test1,@test2</tag>
+								<tag>@InterestOffers,@PartnerBank</tag>
 							</tags>
 							<!-- The naming scheme to use for the generated test classes. One 
 								of ['simple', 'feature-title', 'pattern'] -->
