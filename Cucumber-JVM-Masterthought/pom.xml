@@ -176,7 +176,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<mainClass>com.raisin.framework.libraries.AutomtationReportGeneration</mainClass>
+					<mainClass>com.framework.libraries.AutomtationReportGeneration</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
