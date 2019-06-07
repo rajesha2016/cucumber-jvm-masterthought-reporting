@@ -11,4 +11,4 @@ Scenario: Validate number of offers for Easy access
 Scenario: Validate navigation to registration page for highest interest rate
 	When User gets list of interest rate
 	Then User clicks on register for highest interest rate offer
-	And Register with xyz now page will be opened
+	And Register with xyz now page will be open
