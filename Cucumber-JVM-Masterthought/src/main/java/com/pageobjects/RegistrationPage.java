@@ -22,6 +22,9 @@ public class RegistrationPage {
 	@FindBy(how = How.XPATH, using = "//h3[contains(text(),'Register')]")
 	private WebElement registerwithxyz;
 
+	@FindBy(xpath = "//id")
+	private WebElement demoElement;
+
 	public String getRegisterPageHeaderText() {
 
 		return registerwithxyz.getText().trim();
