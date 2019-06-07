@@ -63,10 +63,5 @@ public class PartnerBankStepDefinition {
 		LOGGER.info("User successfully reached to regiestration page through partner bank");
 		LOGGER.info("********** Validate xyz partner bank feature execution completed ***********");
 	}
-	
-	@And("^User close browser session$")
-	public void user_close_browser_session() throws Throwable {
 
-		partnerPage.closeSession();
-	}
 }
